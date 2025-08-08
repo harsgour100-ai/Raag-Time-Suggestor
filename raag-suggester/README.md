@@ -14,24 +14,29 @@ A minimal, dependency-free web app that suggests Hindustani raags based on the c
 - Uses your device time and timezone by default
 - Manual time selection
 - Visual 24-hour timeline with clickable hours
-- Prahar-based windows with commonly accepted mappings
+- Interactive Samay Chakra (circular time wheel)
+- Raag details modal with aroha/avaroha, vadi/samvadi, and YouTube search links
 
 ## Notes
 
 - Time-theory assignments vary across gharanas and sources. This app encodes a broadly accepted mapping. You can adjust `data/raagas.json` to fit your preference.
 - Night windows wrap around midnight and are handled accordingly.
+- YouTube links open curated search results so they remain stable; you can replace them with specific video URLs you prefer.
 
 ## Customize
 
-Edit `data/raagas.json` to change windows or add ragas. Fields:
+Edit `data/raagas.json` to change windows or add ragas. Fields for the details map:
 
 ```jsonc
-{
-  "id": "unique-id",
-  "label": "Display Name",
-  "startMin": 1080, // minutes since midnight
-  "endMin": 1260,   // minutes since midnight (can be < startMin for wrap-around)
-  "raagas": ["Yaman", "Puriya"],
-  "note": "Optional descriptive note"
+"details": {
+  "Yaman": {
+    "thaat": "Kalyan",
+    "vadi": "Ga",
+    "samvadi": "Ni",
+    "aroha": "Ni Re Ga Ma# Pa Dha Ni Sa",
+    "avaroha": "Sa Ni Dha Pa Ma# Ga Re Sa",
+    "description": "Short note about the raag",
+    "links": [{ "label": "Search: Yaman Rashid Khan", "url": "https://www.youtube.com/results?search_query=raag+yaman+rashid+khan" }]
+  }
 }
 ```

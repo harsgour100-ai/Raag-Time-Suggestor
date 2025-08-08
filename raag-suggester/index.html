@@ -37,6 +37,12 @@
         <!-- Segments populated by JS -->
       </section>
 
+      <section class="chakra-section">
+        <h2>Samay Chakra</h2>
+        <div id="chakra" class="chakra" aria-label="Samay Chakra"></div>
+        <p class="chakra-hint">Click a segment to jump to that time window</p>
+      </section>
+
       <section class="results">
         <h2 id="slot-title">Suggested Raags</h2>
         <ul id="raag-list" class="raag-list"></ul>
@@ -50,6 +56,15 @@
         a commonly accepted guideline.
       </p>
     </footer>
+
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+        <h3 id="modal-title">Raag</h3>
+        <div id="modal-body" class="modal-body"></div>
+      </div>
+    </div>
 
     <script src="./app.js" defer></script>
   </body>

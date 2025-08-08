@@ -64,5 +64,317 @@
       "raagas": ["Malkauns", "Darbari Kanada", "Adana"],
       "note": "00:00–03:00. Profound, tranquil late-night ragas."
     }
-  ]
+  ],
+  "details": {
+    "Bhairav": {
+      "thaat": "Bhairav",
+      "vadi": "Dha",
+      "samvadi": "Re",
+      "aroha": "Sa Re(b) Ga Ma Pa Dha(b) Ni Sa",
+      "avaroha": "Sa Ni Dha(b) Pa Ma Ga Re(b) Sa",
+      "description": "Grave, austere dawn raag with komal Re and Dha.",
+      "links": [
+        { "label": "Search: Bhairav Bhimsen Joshi", "url": "https://www.youtube.com/results?search_query=raag+Bhairav+Bhimsen+Joshi" },
+        { "label": "Search: Bhairav Kishori Amonkar", "url": "https://www.youtube.com/results?search_query=raag+Bhairav+Kishori+Amonkar" }
+      ]
+    },
+    "Ahir Bhairav": {
+      "thaat": "Bhairav",
+      "vadi": "Ma",
+      "samvadi": "Sa",
+      "aroha": "Sa Re(b) Ga Ma Pa Ni(b) Sa",
+      "avaroha": "Sa Ni(b) Dha Pa Ma Ga Re(b) Sa",
+      "description": "Gentle dawn raag blending Bhairav and Kafi touches.",
+      "links": [
+        { "label": "Search: Ahir Bhairav Rashid Khan", "url": "https://www.youtube.com/results?search_query=ahir+bhairav+rashid+khan" }
+      ]
+    },
+    "Ramkali": {
+      "thaat": "Bhairav",
+      "vadi": "Pa",
+      "samvadi": "Sa",
+      "aroha": "Sa Re(b) Ga Ma Pa Dha(b) Ni Sa",
+      "avaroha": "Sa Ni Dha(b) Pa Ma Ga Re(b) Sa",
+      "description": "Serious, meditative; close to Bhairav with distinct phrases.",
+      "links": [
+        { "label": "Search: Ramkali Amir Khan", "url": "https://www.youtube.com/results?search_query=ramkali+amir+khan" }
+      ]
+    },
+    "Lalit": {
+      "thaat": "Purvi",
+      "vadi": "Ma",
+      "samvadi": "Sa",
+      "aroha": "Sa Re Ga Ma Ma# Dha Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma Ma# Ga Re Sa",
+      "description": "Dawn raag featuring both Madhyams; haunting mood.",
+      "links": [
+        { "label": "Search: Lalit Kishori Amonkar", "url": "https://www.youtube.com/results?search_query=raag+lalit+kishori+amonkar" }
+      ]
+    },
+    "Jaunpuri": {
+      "thaat": "Asavari",
+      "vadi": "Dha",
+      "samvadi": "Ga",
+      "aroha": "Sa Re Ga Ma Pa Dha(b) Sa",
+      "avaroha": "Sa Ni(b) Dha(b) Pa Ma Ga Re Sa",
+      "description": "Pathos-laden morning raag with komal Dha and Ni.",
+      "links": [
+        { "label": "Search: Jaunpuri Bhimsen Joshi", "url": "https://www.youtube.com/results?search_query=jaunpuri+bhimsen+joshi" }
+      ]
+    },
+    "Bhatiyar": {
+      "thaat": "Marwa",
+      "vadi": "Dha",
+      "samvadi": "Ga",
+      "aroha": "Sa re Ga Ma# Dha Ni Sa",
+      "avaroha": "Sa Ni Dha Ma# Ga re Sa",
+      "description": "Early morning Marwa-ang; tense, luminous.",
+      "links": [
+        { "label": "Search: Bhatiyar Rashid Khan", "url": "https://www.youtube.com/results?search_query=bhatiyar+rashid+khan" }
+      ]
+    },
+    "Bibhas": {
+      "thaat": "Bhairav",
+      "vadi": "Dha",
+      "samvadi": "Ga",
+      "aroha": "Sa Re(b) Ga Ma Pa Dha(b) Sa",
+      "avaroha": "Sa Dha(b) Pa Ma Ga Re(b) Sa",
+      "description": "Morning pentatonic variant in Bhairav-ang.",
+      "links": [
+        { "label": "Search: Bibhas", "url": "https://www.youtube.com/results?search_query=raag+bibhas" }
+      ]
+    },
+    "Miyan ki Todi": {
+      "thaat": "Todi",
+      "vadi": "Dha",
+      "samvadi": "Ga",
+      "aroha": "Sa re(b) ga(b) Ma# Dha(b) Sa",
+      "avaroha": "Sa Ni(b) Dha(b) Ma# ga(b) re(b) Sa",
+      "description": "Quintessential late-morning Todi; introspective and serious.",
+      "links": [
+        { "label": "Search: Miyan ki Todi Kishori Amonkar", "url": "https://www.youtube.com/results?search_query=miyan+ki+todi+kishori+amonkar" }
+      ]
+    },
+    "Deskar": {
+      "thaat": "Bilawal",
+      "vadi": "Pa",
+      "samvadi": "Sa",
+      "aroha": "Sa Re Ga Pa Dha Sa",
+      "avaroha": "Sa Ni Dha Pa Ga Re Sa",
+      "description": "Bright morning pentatonic.",
+      "links": [
+        { "label": "Search: Deskar", "url": "https://www.youtube.com/results?search_query=raag+deskar" }
+      ]
+    },
+    "Bilawal": {
+      "thaat": "Bilawal",
+      "vadi": "Dha",
+      "samvadi": "Ga",
+      "aroha": "Sa Re Ga Ma Pa Dha Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma Ga Re Sa",
+      "description": "Shuddha scale; auspicious, bright.",
+      "links": [
+        { "label": "Search: Bilawal", "url": "https://www.youtube.com/results?search_query=raag+bilawal" }
+      ]
+    },
+    "Brindavani Sarang": {
+      "thaat": "Kafi",
+      "vadi": "Re",
+      "samvadi": "Pa",
+      "aroha": "Sa Re Ma Pa Ni Sa",
+      "avaroha": "Sa Ni Pa Ma Re Sa",
+      "description": "Midday Sarang; pastoral and radiant.",
+      "links": [
+        { "label": "Search: Brindavani Sarang Hariprasad Chaurasia", "url": "https://www.youtube.com/results?search_query=brindavani+sarang+hariprasad+chaurasia" }
+      ]
+    },
+    "Shuddha Sarang": {
+      "thaat": "Kafi",
+      "vadi": "Re",
+      "samvadi": "Pa",
+      "aroha": "Sa Re Ma Pa Ni Sa",
+      "avaroha": "Sa Ni Pa Ma Re Sa",
+      "description": "Clear Sarang variant for midday.",
+      "links": [
+        { "label": "Search: Shuddha Sarang", "url": "https://www.youtube.com/results?search_query=shuddha+sarang" }
+      ]
+    },
+    "Gaud Sarang": {
+      "thaat": "Khamaj",
+      "vadi": "Re",
+      "samvadi": "Pa",
+      "aroha": "Sa Re Ma Pa Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma Re Sa",
+      "description": "Sarang family with Gaud flavor.",
+      "links": [
+        { "label": "Search: Gaud Sarang", "url": "https://www.youtube.com/results?search_query=gaud+sarang" }
+      ]
+    },
+    "Multani": {
+      "thaat": "Todi",
+      "vadi": "Pa",
+      "samvadi": "Sa",
+      "aroha": "Sa ga(b) Ma# Pa Ni(b) Sa",
+      "avaroha": "Sa Ni(b) Dha Ma# ga(b) re(b) Sa",
+      "description": "Late afternoon Todi-ang; warm and poignant.",
+      "links": [
+        { "label": "Search: Multani Ustad Rashid Khan", "url": "https://www.youtube.com/results?search_query=multani+rashid+khan" }
+      ]
+    },
+    "Patdeep": {
+      "thaat": "Khamaj",
+      "vadi": "Pa",
+      "samvadi": "Sa",
+      "aroha": "Sa Ma Pa Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma Ga Re Sa",
+      "description": "Afternoon raag with yearning contours.",
+      "links": [
+        { "label": "Search: Patdeep", "url": "https://www.youtube.com/results?search_query=raag+patdeep" }
+      ]
+    },
+    "Shree": {
+      "thaat": "Purvi",
+      "vadi": "Re",
+      "samvadi": "Pa",
+      "aroha": "Sa Re(b) Ma# Pa Dha(b) Ni Sa",
+      "avaroha": "Sa Ni Dha(b) Pa Ma# Re(b) Sa",
+      "description": "Grave, majestic late afternoon raag.",
+      "links": [
+        { "label": "Search: Shree Kumar Gandharva", "url": "https://www.youtube.com/results?search_query=raag+shree+kumar+gandharva" }
+      ]
+    },
+    "Yaman": {
+      "thaat": "Kalyan",
+      "vadi": "Ga",
+      "samvadi": "Ni",
+      "aroha": "Ni Re Ga Ma# Pa Dha Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma# Ga Re Sa",
+      "description": "Iconic evening raag in Kalyan thaat; serene and expansive.",
+      "links": [
+        { "label": "Search: Yaman Rashid Khan", "url": "https://www.youtube.com/results?search_query=raag+yaman+rashid+khan" },
+        { "label": "Search: Yaman Kishori Amonkar", "url": "https://www.youtube.com/results?search_query=raag+yaman+kishori+amonkar" }
+      ]
+    },
+    "Puriya": {
+      "thaat": "Marwa",
+      "vadi": "Ga",
+      "samvadi": "Ni",
+      "aroha": "Sa re Ga Ma# Dha Ni Sa",
+      "avaroha": "Sa Ni Dha Ma# Ga re Sa",
+      "description": "Evening Marwa-ang; introspective and intense.",
+      "links": [
+        { "label": "Search: Puriya Ulhas Kashalkar", "url": "https://www.youtube.com/results?search_query=raag+puriya+ulhas+kashalkar" }
+      ]
+    },
+    "Puriya Dhanashree": {
+      "thaat": "Marwa",
+      "vadi": "Pa",
+      "samvadi": "Re",
+      "aroha": "Sa re Ga Ma# Pa Dha Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma# Ga re Sa",
+      "description": "Evening raag blending Puriya and Dhanashree.",
+      "links": [
+        { "label": "Search: Puriya Dhanashree", "url": "https://www.youtube.com/results?search_query=puriya+dhanashree" }
+      ]
+    },
+    "Shuddha Kalyan": {
+      "thaat": "Kalyan",
+      "vadi": "Ga",
+      "samvadi": "Ni",
+      "aroha": "Ni Re Ga Ma# Pa Dha Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma# Ga Re Sa",
+      "description": "Kalyan-ang with shuddha notes emphasis.",
+      "links": [
+        { "label": "Search: Shuddha Kalyan", "url": "https://www.youtube.com/results?search_query=shuddha+kalyan" }
+      ]
+    },
+    "Khamaj": {
+      "thaat": "Khamaj",
+      "vadi": "Ga",
+      "samvadi": "Ni",
+      "aroha": "Sa Ga Ma Pa Dha Ni Sa",
+      "avaroha": "Sa Ni(k) Dha Pa Ma Ga Re Sa",
+      "description": "Graceful night raag with komal Ni in descent.",
+      "links": [
+        { "label": "Search: Khamaj Ustad Amir Khan", "url": "https://www.youtube.com/results?search_query=khamaj+amir+khan" }
+      ]
+    },
+    "Bihag": {
+      "thaat": "Bilawal",
+      "vadi": "Ga",
+      "samvadi": "Ni",
+      "aroha": "Sa Ga Ma Pa Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma Ga Re Sa",
+      "description": "Romantic late-evening raag.",
+      "links": [
+        { "label": "Search: Bihag Lata Mangeshkar (thumri/khayal)", "url": "https://www.youtube.com/results?search_query=raag+bihag+khayal" }
+      ]
+    },
+    "Desh": {
+      "thaat": "Khamaj",
+      "vadi": "Re",
+      "samvadi": "Pa",
+      "aroha": "Sa Re Ma Pa Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma Ga Re Sa",
+      "description": "Popular patriotic flavor; night performance.",
+      "links": [
+        { "label": "Search: Desh", "url": "https://www.youtube.com/results?search_query=raag+desh+khayal" }
+      ]
+    },
+    "Tilak Kamod": {
+      "thaat": "Khamaj",
+      "vadi": "Pa",
+      "samvadi": "Re",
+      "aroha": "Sa Re Ma Pa Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma Ga Re Sa",
+      "description": "Light classical favorite; graceful.",
+      "links": [
+        { "label": "Search: Tilak Kamod", "url": "https://www.youtube.com/results?search_query=tilak+kamod+khayal" }
+      ]
+    },
+    "Jhinjhoti": {
+      "thaat": "Khamaj",
+      "vadi": "Ga",
+      "samvadi": "Ni",
+      "aroha": "Sa Ga Ma Pa Ni Sa",
+      "avaroha": "Sa Ni Dha Pa Ma Ga Re Sa",
+      "description": "Charming light-classical night raag.",
+      "links": [
+        { "label": "Search: Jhinjhoti", "url": "https://www.youtube.com/results?search_query=jhinjhoti+khayal" }
+      ]
+    },
+    "Malkauns": {
+      "thaat": "Bhairavi (modal)",
+      "vadi": "Ma",
+      "samvadi": "Sa",
+      "aroha": "Sa ga(b) Ma dha(b) ni(b) Sa",
+      "avaroha": "Sa ni(b) dha(b) Ma ga(b) Sa",
+      "description": "Serene, introspective pentatonic; midnight staple.",
+      "links": [
+        { "label": "Search: Malkauns Rashid Khan", "url": "https://www.youtube.com/results?search_query=malkauns+rashid+khan" }
+      ]
+    },
+    "Darbari Kanada": {
+      "thaat": "Asavari (Kanada ang)",
+      "vadi": "Re",
+      "samvadi": "Pa",
+      "aroha": "Sa Re Sa Ma Pa ni(b) Sa",
+      "avaroha": "Sa ni(b) Dha Pa Ma Ga Re Sa",
+      "description": "Grave, dignified late-night raag of the Kanada family.",
+      "links": [
+        { "label": "Search: Darbari Amir Khan", "url": "https://www.youtube.com/results?search_query=darbari+kanada+amir+khan" }
+      ]
+    },
+    "Adana": {
+      "thaat": "Asavari (Kanada ang)",
+      "vadi": "Pa",
+      "samvadi": "Re",
+      "aroha": "Sa Re Ma Pa Dha Sa",
+      "avaroha": "Sa Ni Dha Pa Ma Ga Re Sa",
+      "description": "Brisk late-night Kanada variant.",
+      "links": [
+        { "label": "Search: Adana Bhimsen Joshi", "url": "https://www.youtube.com/results?search_query=adana+bhimsen+joshi" }
+      ]
+    }
+  }
 }

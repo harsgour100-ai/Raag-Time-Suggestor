@@ -192,3 +192,144 @@ input:checked + .slider:before {
   color: var(--muted);
   padding: 2rem 1rem;
 }
+
+/* Samay Chakra */
+.chakra-section {
+  margin-top: 1.25rem;
+  background: var(--panel);
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.chakra-section h2 {
+  margin: 0 0 0.75rem;
+}
+
+.chakra {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.chakra svg {
+  width: 100%;
+  height: auto;
+}
+
+.chakra .segment-path {
+  fill: #0b1220;
+  stroke: #1f2937;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+.chakra .segment-path[data-active="true"] {
+  fill: var(--accent-weak);
+}
+
+.chakra .segment-path:hover {
+  fill: rgba(245, 158, 11, 0.25);
+}
+
+.chakra .segment-label {
+  font-size: 10px;
+  fill: var(--muted);
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.chakra .hand {
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.chakra-hint {
+  color: var(--muted);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+}
+
+.modal[aria-hidden="false"] {
+  display: block;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-dialog {
+  position: relative;
+  max-width: 640px;
+  margin: 10vh auto;
+  background: var(--panel);
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 1rem 1rem 1.25rem;
+}
+
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 6px;
+  background: #0b1220;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.modal-body {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.modal-body .meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.5rem;
+}
+
+.modal-body .links {
+  display: grid;
+  gap: 0.375rem;
+}
+
+.modal-body a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.modal-body a:hover {
+  text-decoration: underline;
+}
+
+/* Clickable raag items */
+.raag-item {
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.raag-item:hover {
+  background: rgba(34, 211, 238, 0.08);
+  border-color: var(--accent);
+}
+
+.muted {
+  color: var(--muted);
+}

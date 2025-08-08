@@ -1,0 +1,68 @@
+{
+  "windows": [
+    {
+      "id": "pre-dawn",
+      "label": "Pre-dawn",
+      "startMin": 180,
+      "endMin": 360,
+      "raagas": ["Bhairav", "Ahir Bhairav", "Ramkali", "Lalit"],
+      "note": "3:00–6:00. Meditative dawn ragas with komal Re and Dha flavors."
+    },
+    {
+      "id": "early-morning",
+      "label": "Early Morning",
+      "startMin": 360,
+      "endMin": 540,
+      "raagas": ["Jaunpuri", "Bhatiyar", "Bibhas"],
+      "note": "6:00–9:00. Transition from dawn; bright yet serene."
+    },
+    {
+      "id": "late-morning",
+      "label": "Late Morning",
+      "startMin": 540,
+      "endMin": 720,
+      "raagas": ["Miyan ki Todi", "Deskar", "Bilawal"],
+      "note": "9:00–12:00. Todi and allied moods; introspective, serious."
+    },
+    {
+      "id": "midday",
+      "label": "Midday",
+      "startMin": 720,
+      "endMin": 900,
+      "raagas": ["Brindavani Sarang", "Shuddha Sarang", "Gaud Sarang"],
+      "note": "12:00–15:00. Sarang family; luminous, open textures."
+    },
+    {
+      "id": "late-afternoon",
+      "label": "Late Afternoon",
+      "startMin": 900,
+      "endMin": 1080,
+      "raagas": ["Multani", "Patdeep", "Shree"],
+      "note": "15:00–18:00. Warm, reflective colors of the afternoon."
+    },
+    {
+      "id": "evening",
+      "label": "Evening",
+      "startMin": 1080,
+      "endMin": 1260,
+      "raagas": ["Yaman", "Puriya", "Puriya Dhanashree", "Shuddha Kalyan"],
+      "note": "18:00–21:00. Sandhi-prakash glow; devotional and expansive."
+    },
+    {
+      "id": "late-evening",
+      "label": "Late Evening",
+      "startMin": 1260,
+      "endMin": 1440,
+      "raagas": ["Khamaj", "Bihag", "Desh", "Tilak Kamod", "Jhinjhoti"],
+      "note": "21:00–24:00. Romantic, graceful night ragas."
+    },
+    {
+      "id": "midnight",
+      "label": "Midnight",
+      "startMin": 0,
+      "endMin": 180,
+      "raagas": ["Malkauns", "Darbari Kanada", "Adana"],
+      "note": "00:00–03:00. Profound, tranquil late-night ragas."
+    }
+  ]
+}

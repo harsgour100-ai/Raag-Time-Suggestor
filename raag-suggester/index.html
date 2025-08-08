@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Raag Suggester by Time</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Raag Suggester</h1>
+      <p class="tagline">Discover Hindustani raags tailored to the time of day</p>
+    </header>
+
+    <main class="container">
+      <section class="controls">
+        <div class="control-row">
+          <label class="switch">
+            <input type="checkbox" id="use-now" checked />
+            <span class="slider"></span>
+          </label>
+          <label for="use-now" class="switch-label">Use current time</label>
+        </div>
+
+        <div class="control-row">
+          <label for="time-input">Pick a time</label>
+          <input type="time" id="time-input" value="00:00" disabled />
+        </div>
+
+        <div class="control-row now-row">
+          <span class="now-label">Now:</span>
+          <span id="now-text" class="now-text">—</span>
+        </div>
+      </section>
+
+      <section class="timeline" id="timeline">
+        <!-- Segments populated by JS -->
+      </section>
+
+      <section class="results">
+        <h2 id="slot-title">Suggested Raags</h2>
+        <ul id="raag-list" class="raag-list"></ul>
+        <p id="slot-note" class="slot-note"></p>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>
+        Time theory varies across gharanas and traditions. This tool provides
+        a commonly accepted guideline.
+      </p>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

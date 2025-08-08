@@ -25,9 +25,18 @@ const els = {
 };
 
 async function loadData() {
-  const res = await fetch('./data/raagas.json');
-  if (!res.ok) throw new Error('Failed to load raaga data');
-  const data = await res.json();
+  let data = null;
+  try {
+    const res = await fetch('./data/raagas.json');
+    if (!res.ok) throw new Error('Failed to load raaga data');
+    data = await res.json();
+  } catch (e) {
+    const embedded = document.getElementById('embedded-raagas');
+    if (embedded?.textContent) {
+      try { data = JSON.parse(embedded.textContent); } catch {}
+    }
+  }
+  if (!data) throw new Error('No raaga data available');
   state.raagWindows = data.windows;
   state.raagDetails = data.details || {};
   renderTimeline();
